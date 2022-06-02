@@ -9,7 +9,7 @@ body{
 header{
     display: flex;
     justify-content: center;
-    margin: 6.544502617801047vh 0;
+    margin: 6.6vh 0;
     font: italic bold normal 5vw/1pt Jost;
 }
 
@@ -17,8 +17,8 @@ section{
     margin: auto;
 }
 #calculator{
-    max-height: 740px;
-    max-width: 500px;
+    max-height: 640px;
+    max-width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ section{
     font: italic bold normal 6.944vw/1pt Jost;
     border:solid 1px white ;
     border-radius: 5px;
-    margin: 20px 0
+    margin: 20px 20px;
 }
 
 #buttons{
@@ -47,18 +47,18 @@ section{
 }
 
 #buttons .normal{
-    height: 100px;
-    width: 100px;
-    font: normal 3vw/1pt Jost;
+    height: 81px;
+    width: 81px;
+    font: bold normal 2.5vw/1pt Jost;
     border-radius: 5px;
     border:solid 0px black;
     margin-bottom: 20px; 
 }
 
 #buttons .long{
-    width: 220px;
-    height: 100px;
-    font: normal 3vw/1pt Jost;
+    width: 172.8px;
+    height: 81px;
+    font: bold normal 2.5vw/1pt Jost;
     border-radius: 5px;
     border:solid 0px black;
     margin-bottom: 20px; 
